@@ -21,4 +21,15 @@ function reversenumberPattern($n){
 
 echo reversenumberPattern(5);
 
+// reverse number pattern
+function reversenumber($n){
+    for($i=5; $i>=1; $i--){
+        for($j=1; $j<=$i; $j++){
+            echo $j;
+        }
+        echo "<br>";
+    }
+}
+
+echo reversenumber(5);
 ?>
