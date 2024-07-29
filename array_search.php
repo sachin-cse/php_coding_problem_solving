@@ -2,7 +2,7 @@
 
 function arraySearch($names){
     foreach($names as $key=>$value){
-        if($value == 'Laylas'){
+        if($value == 'Layla'){
             return $key;
         }
     }
